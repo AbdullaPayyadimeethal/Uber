@@ -1,11 +1,206 @@
-#root{
-    height: 100%;
-}
 #header{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 70px;
     background-color: black;
+    padding-left: 255px;
+    
 }
 body{
     margin: 0;
+}
+.font{
+    height: 63px;
+    width: 95px;
+}
+.headertext{
+    color: #fff;
+    background-color: black;
+    border: 4px solid black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: -4px;
+    border-radius: 30px;
+    height: 16px;
+    width: 76px;
+    cursor: pointer;
+    padding: 7px 0px;
+    text-align: center;
+    padding-top: 11px;
+}
+.headertext:hover{
+    background-color: #3c3a44;
+}
+.lefthead{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+.righthead{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.fa-solid fa-globe{
+        color: #fff;
+}
+.en{
+    color: #fff;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium20px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: black;
+    border: 4px solid black;
+    border-radius: 30px;
+    height: 23px;
+    width: 55px;
+    padding-top: 6px;
+    text-align: center;
+}
+.en:hover{
+    background-color: #3c3a44;
+}
+.img{
+    transform: rotate(-45deg);
+}
+.signbtn{
+    font-size: 15px;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    height: 32px;
+    cursor: pointer;
+}
+.signbtn:hover{
+    background-color: #d6d6d8;
+    border: 4px solid #d6d6d8;
+}
+.headerdown{
+    width: 100%;
+    margin-left: 15%;
+    height: 11px;
+    display: flex;
+    align-items: normal;
+}
+.ride{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.down{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 636px;
+    padding-top: 22px;
+    color: #686767;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.downtext{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 22px;
+    color: #686767;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 11px;
+    
+}
+.downtext:hover{
+    color: black;
+}
+.content{
+    padding-left: 16%;
+    padding-right: 16%;
+    margin-top: 90px;
+}
+.maincont{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.first{
+    margin-left: 5%;
+}
+.subcontent{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 11px;
+    font-size: 17px;
+}
+.blackbtn{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background-color: black;
+    border-width: 0px;
+    width: 224px;
+    height: 54px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-top: 10px;       
+}
+.blackbtn:hover{
+    background-color: #1d1d1f;
+    border: 4px solid #1d1d1f;
+}
+.whitbtn{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    background-color: #E2E2E2;
+    border-width: 0px;
+    width: 224px;
+    height: 54px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 4px solid #E2E2E2;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.whitbtn:hover{
+    background-color: #CBCBCB;
+    border: 4px solid #CBCBCB;
+}
+.video{
+    margin-top: 60px; 
+    width: 1280px;   
+}
+.seccont{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.why{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;    
+}
+.cont2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.card{
+    margin-top: 35px;
+    margin-left: 55px;
+    display: flex;
+    width: 1190px;
+    padding-block-end: 140px;
+}
+.subhead{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.subcont{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #564f4f;
+}
+.container{
+    padding-inline-end: 66px;
 }
