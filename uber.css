@@ -80,14 +80,18 @@ body{
     border: 4px solid #d6d6d8;
 }
 .headerdown{
-    width: 100%;
+    width: 1560px;
     padding-left: 15%;
     height: 63px;
     display: flex;
     align-items: normal;
     position: fixed;
     background-color: #fff;
-    z-index: 98;
+    position: sticky;
+}
+.headerdown.fixed{
+    position: fixed;
+    top: 0;
 }
 .ride{
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -172,7 +176,7 @@ body{
 }
 .video{
     margin-top: 60px; 
-    width: 1280px;   
+    width: 1210px;   
 }
 .seccont{
     margin-top: 60px;
@@ -439,33 +443,149 @@ footer{
     align-items: center;
 }
 .fb{
-    background-color: #fff;
     height: 16px;
     margin-top: 40px;
+    background-color: #52525200;
+    border: 10px solid #52525200;
+}
+.fb:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
 .twitter{
     margin-left: 90px;
     margin-top: 40px;
+    background-color: #52525200;
+    border: 10px solid #52525200;
+}
+.twitter:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
 .youtube{
     margin-left: 90px;
     margin-top: 40px;
+    background-color: #52525200;
+    border: 10px solid #52525200;
+}
+.youtube:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
 .linkedin{
     margin-left: 90px;
     margin-top: 40px;
+    background-color: #52525200;
+    border: 10px solid #52525200;
+}
+.linkedin:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
 .instagram{
     margin-left: 90px;
     margin-top: 40px;
+    background-color: #52525200;
+    border: 10px solid #52525200;
+}
+.instagram:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
 .english{
     color: #fff;
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: 57px;
-    margin-left: 10px;
+    
+    padding-top: 37px;
+    text-decoration: none;
 }
 .footerglob{
-    margin-left: 385px;
-    margin-top: 40px;
+    margin-inline-end: 10px;
+    transform: rotate(-45deg);
+}
+.bayarea{
+    color: #fff;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 145px;
+    text-decoration: none;
+}
+.playstore{
+    width: 140px;
+}
+.app{
+    margin-block-start: 63px;
+    display: flex;
+    align-items: center;
+}
+.appstore{
+    width: 140px;
+    height: 42px;
+}
+.copy{
+    color: #bdb6b6;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.last{
+    margin-block-start: 65px;
+    display: flex;
+    align-items: center;
+}
+.privacy{
+    margin-inline-start: 682px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #bdb6b6;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.privacy:hover{
+    color: #3c3a44;
+}
+.accessibility{
+    margin-inline-start: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #bdb6b6;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.accessibility:hover{
+    color: #3c3a44;
+}
+.terms{
+    margin-inline-start: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #bdb6b6;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.terms:hover{
+    color: #3c3a44;
+}
+.footeren{
+    background-color: #52525200;
+    border: 10px solid #52525200;
+    margin-block-start: 40px;
+    margin-left: 270px;
+}
+.footeren:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
+}
+.area{
+    background-color: #52525200;
+    border: 10px solid #52525200;
+    margin-block-start: 38px;
+    margin-left: 11px;
+}
+.area:hover{
+    background-color: #525252;
+    border: 10px solid #525252;
+    border-radius: 5px;
 }
